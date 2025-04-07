@@ -13,7 +13,7 @@ public class ToHideLastDigit {
 
 			
 		}else {
-			System.out.println("invalid card number ");
+			System.out.println("invalid card number");
 		}
 		sc.close();
 	
