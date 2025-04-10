@@ -10,6 +10,7 @@ public class ToHideLastDigit {
 		if( CardNumber.length() ==16) {
 		String maskedCardNumber=	"XXXX XXXX XXXX "+CardNumber.substring(12);
 		System.out.println("masked card number is "+maskedCardNumber);
+		System.out.println("ToHideLastDigit.main()");
 
 			
 		}else {
