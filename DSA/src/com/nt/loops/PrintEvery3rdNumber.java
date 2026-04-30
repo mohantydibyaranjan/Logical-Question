@@ -9,11 +9,12 @@ public class PrintEvery3rdNumber {
 		int fstNumber = sc.nextInt();
 		System.out.println("enter the 2nd number");
 		int endNumber = sc.nextInt();
-		int number = 0;
+
 		for (int i = fstNumber; i <= endNumber; i++) {
 			i = i + 2;
 			System.out.print(i + ",");
 		}
+		sc.close();
 
 	}
 
