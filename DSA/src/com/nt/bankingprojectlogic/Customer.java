@@ -28,8 +28,18 @@ class Customer {
     public int getId() {
         return id;
     }
+    
+    
 
-    @Override
+    public String getCity() {
+		return city;
+	}
+
+	public void setCity(String city) {
+		this.city = city;
+	}
+
+	@Override
     public String toString() {
         return "Customer [id=" + id + ", name=" + name + ", mobileNumber=" + mobileNumber + ", email=" + email
                 + ", city=" + city + ", cardNum=" + cardNum + ", dob=" + dob + ", balance=" + balance + "]";
