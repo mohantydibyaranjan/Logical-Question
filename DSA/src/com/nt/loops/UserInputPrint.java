@@ -18,7 +18,7 @@ public class UserInputPrint {
 		for (int i = 0; i < word.length(); i++) {
 			System.out.println(i + 1 + " " + word.charAt(i));
 
-		}
+		} 
 		sc.close();
 
 	}
