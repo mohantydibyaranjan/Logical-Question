@@ -16,6 +16,7 @@ public class RemoveDuplicate {
 			}
 			if (!isDuplicate) {
 				System.out.println(arr[i]);
+				
 			}
 		}
 

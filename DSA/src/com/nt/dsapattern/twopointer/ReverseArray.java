@@ -21,12 +21,15 @@ public class ReverseArray {
 		int size = sc.nextInt();
 		int arr[] = new int[size];
 		System.out.println("entre the Array element");
-		for (int i = 0; i < arr.length - 1; i++) {
+		for (int i = 0; i <= arr.length - 1; i++) {
 			arr[i] = sc.nextInt();
 
 		}
-		System.out.println(ReverseArray.reverse(arr));
-
+		int[] reverse = ReverseArray.reverse(arr);
+		for (int num : reverse) {
+			System.out.println(num);
+		}
+		sc.close();
 	}
 
 	public static int[] reverse(int arr[]) {
