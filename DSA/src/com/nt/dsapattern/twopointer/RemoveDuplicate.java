@@ -68,6 +68,7 @@ public class RemoveDuplicate {
 		for (int i = 0; i < k; i++) {
 			System.out.print(arr[i] + " ");
 		}
+		sc.close();
 	}
 
 	public static int duplicateNum(int num[]) {
